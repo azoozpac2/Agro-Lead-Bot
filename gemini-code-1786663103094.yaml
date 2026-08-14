@@ -1,8 +1,8 @@
 name: Agro Lead Bot Daily
 on:
   schedule:
-    - cron: '0 8 * * *'  # يعمل يومياً في الساعة 8:00 صباحاً
-  workflow_dispatch:      # لكي تتمكن من تشغيله يدوياً متى أردت
+    - cron: '0 8 * * *'  
+  workflow_dispatch:      
 
 jobs:
   build:
